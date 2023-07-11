@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxthq/ui": "^2.5.0",
+    "@nuxtjs/i18n": "8.0.0-beta.13",
+    "@types/node": "^18",
+    "@vite-pwa/nuxt": "^0.1.0",
+    "nuxt": "^3.5.2",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.1",
+    "clipboard": "^2.0.11",
+    "dexie": "^3.2.4",
+    "gsap": "^3.12.2",
+    "icons": "^1.0.0",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-swiper": "^1.1.1",
+    "pinia": "^2.1.4"
+  }
+}
