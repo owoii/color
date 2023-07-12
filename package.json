@@ -18,12 +18,17 @@
   },
   "dependencies": {
     "@nuxtjs/google-fonts": "^3.0.1",
+    "@pinia/nuxt": "^0.4.11",
+    "animate.css": "^4.1.1",
+    "chroma-js": "^2.4.2",
     "clipboard": "^2.0.11",
-    "dexie": "^3.2.4",
     "gsap": "^3.12.2",
     "icons": "^1.0.0",
+    "localforage": "^1.10.0",
+    "nanoid": "^4.0.2",
     "nuxt-icon": "^0.4.2",
     "nuxt-swiper": "^1.1.1",
-    "pinia": "^2.1.4"
+    "pinia": "^2.1.4",
+    "vue-draggable-next": "^2.2.1"
   }
 }

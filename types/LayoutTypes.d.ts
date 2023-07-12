@@ -14,11 +14,12 @@ declare namespace Color {
   }
   // 数据库对应的一条颜色数据
   interface Value {
-    id: string | number;
+    id?: string | number;
     hex?: string;
     rgb?: string;
     hsl?: string;
     name?: string;
+    pid?: string | number;
   }
   interface Colors {
     id: string | number;

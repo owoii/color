@@ -6,6 +6,12 @@ export const sidebarList: Color.sidebarList[] = [
     id: 1,
     sidebars: [
       {
+        icon: "iconamoon:component",
+        to: "/",
+        id: 2,
+        title: "全部色卡",
+      },
+      {
         icon: "iconamoon:category",
         to: "/",
         id: 0,
@@ -16,12 +22,6 @@ export const sidebarList: Color.sidebarList[] = [
         to: "/",
         id: 1,
         title: "最近使用",
-      },
-      {
-        icon: "iconamoon:component",
-        to: "/",
-        id: 2,
-        title: "全部色卡",
       },
     ],
   },
@@ -51,7 +51,7 @@ export const sidebarList: Color.sidebarList[] = [
         icon: "iconamoon:component",
         to: "/",
         id: 2,
-        title: "全部色卡",
+        title: "三色",
       },
     ],
   },
@@ -76,6 +76,18 @@ export const sidebarList: Color.sidebarList[] = [
         to: "/",
         id: 12,
         title: "手动取色",
+      },
+    ],
+  },
+  {
+    label: "功能测试",
+    id: 5,
+    sidebars: [
+      {
+        icon: "iconamoon:sign-lemniscate-duotone",
+        to: "/test",
+        id: 4,
+        title: "新功能测试",
       },
     ],
   },

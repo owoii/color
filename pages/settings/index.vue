@@ -1,10 +1,8 @@
 <template>
-  <div class="p-5 w-full">
-    <h1>设置</h1>
-  </div>
+  <div><h1>hhh</h1></div>
 </template>
 <script setup lang="ts">
 definePageMeta({
-  name: "设置",
+  name: "基础设置",
 });
 </script>

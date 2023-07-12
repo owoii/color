@@ -9,7 +9,11 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@vite-pwa/nuxt",
     "@nuxthq/ui",
+    "@pinia/nuxt",
   ],
+  imports: {
+    dirs: ["./stores"],
+  },
   components: [
     {
       path: "~/components/sidebars",
@@ -24,6 +28,9 @@ export default defineNuxtConfig({
     {
       path: "~/components/toolbar",
       prefix: "ToolBar",
+    },
+    {
+      path: "~/components/common",
     },
   ],
   googleFonts: {
@@ -45,4 +52,8 @@ export default defineNuxtConfig({
   build: {
     transpile: ["gsap"],
   },
+  pinia: {
+    autoImports: ["defineStore", "acceptHMRUpdate"],
+  },
+  css: ["animate.css/animate.min.css"],
 });
