@@ -1,4 +1,5 @@
-import { createInstance } from "localforage";
+import pkg from "localforage";
+const { createInstance } = pkg;
 // 用户设置数据库
 const settingDB = createInstance({
   name: "color",
