@@ -6,10 +6,22 @@
           id: 121,
           colors: [
             {
-              hex: 'ffffff',
+              hex: 'fff000',
+            },
+            {
+              hex: 'ff00ff',
+            },
+            {
+              hex: '00ff00',
+            },
+            {
+              hex: 'f0f000',
+            },
+            {
+              hex: 'fff0f0',
             },
           ],
-          name: 'dsad',
+          name: '一张普通的色卡',
         }"
       />
     </div>
