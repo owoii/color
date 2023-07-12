@@ -1,8 +1,8 @@
 <!-- 五色色卡 -->
 <template>
-  <div class="w-full flex flex-col gap-2">
+  <div class="w-full flex flex-col gap-2 transition-all duration-300">
     <div
-      class="flex w-full rounded-xl relative dark:border-gray-50 overflow-hidden border shadow-md flex-col transition-all outline-transparent dark:hover:outline-white hover:outline-black outline outline-offset-4 outline-1"
+      class="flex w-full rounded-xl relative dark:border-gray-50 overflow-hidden border shadow-md flex-col transition-all"
     >
       <!-- 主色区域 -->
       <div
